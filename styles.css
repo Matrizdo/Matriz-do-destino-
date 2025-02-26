@@ -7,6 +7,11 @@ body {
     color: black; /* Cor do texto em preto */
 }
 
+/* Centralizando textos */
+.center {
+    text-align: center;
+}
+
 /* Cabeçalho */
 header {
     background-color: #333;
