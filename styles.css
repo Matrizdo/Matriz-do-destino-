@@ -40,16 +40,16 @@ section {
     border-radius: 15px; /* Torna as caixas de texto arredondadas */
 }
 
-/* Títulos - Usando a fonte "𝔻𝕠𝕦𝕓𝕝𝕖 𝕊𝕥𝕣𝕦𝕔𝕜" */
+/* Títulos */
 h1, h2 {
-    font-family: 'Courier New', Courier, monospace; /* Usando fonte similar ao estilo desejado */
+    font-family: 'Courier New', Courier, monospace;
     color: #333;
     background-color: #f4d03f; /* Amarelo pálido de fundo */
     padding: 0.5rem;
-    border-radius: 10px; /* Arredondando os cantos dos títulos */
+    border-radius: 10px;
 }
 
-/* Subtítulos - Usando a fonte "𝙼𝚘𝚗𝚘𝚜𝚙𝚊𝚌𝚎" */
+/* Subtítulos */
 section h2 {
     font-family: 'Monospace', monospace;
     background-color: #f4b731; /* Cor de fundo areia */
@@ -57,9 +57,9 @@ section h2 {
     border-radius: 10px;
 }
 
-/* Texto de Corpo - Fonte "ˢᵘᵖᵉʳˢᶜʳᶦᵖᵗ" */
+/* Texto de Corpo */
 p, label {
-    font-family: 'Times New Roman', serif; /* Usando um estilo de fonte mais elegante */
+    font-family: 'Times New Roman', serif;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -84,7 +84,7 @@ form button {
     padding: 10px 15px;
     border: none;
     cursor: pointer;
-    border-radius: 5px; /* Arredondando os botões */
+    border-radius: 5px;
 }
 
 form button:hover {
@@ -93,18 +93,25 @@ form button:hover {
 
 /* Cores do fundo */
 section#home {
-    background-color: #a3d8a5; /* Verde-lua */
+    background-image: url('IMG_8611.jpeg'); /* Caminho da imagem */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 4rem;
+    border-radius: 15px;
 }
 
 section#about {
-    background-color: #76c7b7; /* Verde-mar */
+    background-color: #76c7b7;
 }
 
 section#contact {
-    background-color: #f7b041; /* Cor de fundo de seção do tipo "areia" */
+    background-color: #f7b041;
 }
 
-/* Adicionando sombras para dar um efeito mais interessante */
+/* Sombras */
 section, header, form {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
+
