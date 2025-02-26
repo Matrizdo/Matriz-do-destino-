@@ -117,3 +117,10 @@ form button:hover {
 section, header, form {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+/* Estilo para o link ativo */
+nav ul li a.ativo {
+    color: #f4d03f; /* Cor do link ativo (por exemplo, amarelo) */
+    font-weight: bold;
+    text-decoration: underline;
+}
