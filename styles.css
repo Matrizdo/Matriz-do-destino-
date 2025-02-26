@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
+    color: black; /* Cor do texto em preto */
 }
 
 /* Cabeçalho */
@@ -47,7 +48,7 @@ section#home {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: white;
+    color: black; /* Cor do texto em preto */
     text-align: center;
     padding: 4rem;
     border-radius: 15px;
@@ -65,7 +66,7 @@ section#contact {
 /* Títulos */
 h1, h2 {
     font-family: 'Courier New', Courier, monospace;
-    color: #333;
+    color: black; /* Cor do texto dos títulos em preto */
     background-color: #f4d03f;
     padding: 0.5rem;
     border-radius: 10px;
@@ -84,6 +85,7 @@ p, label {
     font-family: 'Times New Roman', serif;
     font-size: 16px;
     line-height: 1.5;
+    color: black; /* Cor do texto em preto */
 }
 
 /* Formulário */
@@ -116,11 +118,4 @@ form button:hover {
 /* Sombras para efeitos visuais */
 section, header, form {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-/* Estilo para o link ativo */
-nav ul li a.ativo {
-    color: #f4d03f; /* Cor do link ativo (por exemplo, amarelo) */
-    font-weight: bold;
-    text-decoration: underline;
 }
