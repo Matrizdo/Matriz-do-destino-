@@ -1,64 +1,112 @@
- ```css
-   body {
-       font-family: Arial, sans-serif;
-       margin: 0;
-       padding: 0;
-       background-color: #f0f0f0;
-   }
+/* Cor de fundo do site */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFACD; /* Amarelo-pálido */
+    color: #000000; /* Texto preto */
+}
 
-   header {
-       background-color: #333;
-       color: white;
-       padding: 1rem;
-       text-align: center;
-   }
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
 
-   nav ul {
-       list-style: none;
-       padding: 0;
-   }
+/* Menu de navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
 
-   nav ul li {
-       display: inline;
-       margin-right: 15px;
-   }
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
 
-   nav ul li a {
-       color: white;
-       text-decoration: none;
-   }
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
 
-   section {
-       padding: 2rem;
-       margin: 1rem;
-   }
+/* Estilos para as seções */
+section {
+    padding: 2rem;
+    margin: 1rem;
+}
 
-   section h2 {
-       color: #333;
-   }
+section h2 {
+    color: #333;
+}
 
-   form label {
-       display: block;
-       margin-bottom: 8px;
-   }
+/* Títulos com fundo Areia */
+.titulo-areia {
+    background-color: #F4A300; /* Areia */
+    color: #000000; /* Texto preto */
+    padding: 10px;
+    border-radius: 5px;
+}
 
-   form input {
-       width: 100%;
-       padding: 10px;
-       margin-bottom: 12px;
-       border-radius: 5px;
-       border: 1px solid #ccc;
-   }
+/* Títulos com fundo Verde-Lua */
+.titulo-verde-lua {
+    background-color: #B0E0E6; /* Verde-lua */
+    color: #000000; /* Texto preto */
+    padding: 10px;
+    border-radius: 5px;
+}
 
-   form button {
-       background-color: #333;
-       color: white;
-       padding: 10px 15px;
-       border: none;
-       cursor: pointer;
-   }
+/* Estilo de Botão */
+.button {
+    background-color: #2E8B57; /* Verde-mar */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
 
-   form button:hover {
-       background-color: #555;
-   }
-   ```
+.button:hover {
+    background-color: #228B22; /* Verde-mar escuro ao passar o mouse */
+}
+
+/* Estilo de Links do Menu */
+.menu-item {
+    background-color: #2E8B57; /* Verde-mar */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    background-color: #228B22; /* Verde-mar escuro ao passar o mouse */
+}
+
+/* Formulário de Contato */
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
