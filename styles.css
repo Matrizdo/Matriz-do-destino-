@@ -1,10 +1,9 @@
-/* Cor de fundo do site */
+/* Estilo Global */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #FFFACD; /* Amarelo-pálido */
-    color: #000000; /* Texto preto */
+    background-color: #f0f0f0;
 }
 
 /* Cabeçalho */
@@ -13,9 +12,10 @@ header {
     color: white;
     padding: 1rem;
     text-align: center;
+    border-radius: 15px; /* Tornando o cabeçalho arredondado */
 }
 
-/* Menu de navegação */
+/* Estilização da navegação */
 nav ul {
     list-style: none;
     padding: 0;
@@ -29,63 +29,42 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
 
-/* Estilos para as seções */
+/* Seções */
 section {
     padding: 2rem;
     margin: 1rem;
+    border-radius: 15px; /* Torna as caixas de texto arredondadas */
 }
 
-section h2 {
+/* Títulos - Usando a fonte "𝔻𝕠𝕦𝕓𝕝𝕖 𝕊𝕥𝕣𝕦𝕔𝕜" */
+h1, h2 {
+    font-family: 'Courier New', Courier, monospace; /* Usando fonte similar ao estilo desejado */
     color: #333;
+    background-color: #f4d03f; /* Amarelo pálido de fundo */
+    padding: 0.5rem;
+    border-radius: 10px; /* Arredondando os cantos dos títulos */
 }
 
-/* Títulos com fundo Areia */
-.titulo-areia {
-    background-color: #F4A300; /* Areia */
-    color: #000000; /* Texto preto */
-    padding: 10px;
-    border-radius: 5px;
+/* Subtítulos - Usando a fonte "𝙼𝚘𝚗𝚘𝚜𝚙𝚊𝚌𝚎" */
+section h2 {
+    font-family: 'Monospace', monospace;
+    background-color: #f4b731; /* Cor de fundo areia */
+    padding: 0.5rem;
+    border-radius: 10px;
 }
 
-/* Títulos com fundo Verde-Lua */
-.titulo-verde-lua {
-    background-color: #B0E0E6; /* Verde-lua */
-    color: #000000; /* Texto preto */
-    padding: 10px;
-    border-radius: 5px;
+/* Texto de Corpo - Fonte "ˢᵘᵖᵉʳˢᶜʳᶦᵖᵗ" */
+p, label {
+    font-family: 'Times New Roman', serif; /* Usando um estilo de fonte mais elegante */
+    font-size: 16px;
+    line-height: 1.5;
 }
 
-/* Estilo de Botão */
-.button {
-    background-color: #2E8B57; /* Verde-mar */
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
-.button:hover {
-    background-color: #228B22; /* Verde-mar escuro ao passar o mouse */
-}
-
-/* Estilo de Links do Menu */
-.menu-item {
-    background-color: #2E8B57; /* Verde-mar */
-    color: white;
-    padding: 10px 15px;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
-.menu-item:hover {
-    background-color: #228B22; /* Verde-mar escuro ao passar o mouse */
-}
-
-/* Formulário de Contato */
+/* Formulário */
 form label {
     display: block;
     margin-bottom: 8px;
@@ -105,8 +84,27 @@ form button {
     padding: 10px 15px;
     border: none;
     cursor: pointer;
+    border-radius: 5px; /* Arredondando os botões */
 }
 
 form button:hover {
     background-color: #555;
+}
+
+/* Cores do fundo */
+section#home {
+    background-color: #a3d8a5; /* Verde-lua */
+}
+
+section#about {
+    background-color: #76c7b7; /* Verde-mar */
+}
+
+section#contact {
+    background-color: #f7b041; /* Cor de fundo de seção do tipo "areia" */
+}
+
+/* Adicionando sombras para dar um efeito mais interessante */
+section, header, form {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
